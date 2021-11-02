@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: integration.datalayer.customer.CreateCustomerTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.001 s <<< FAILURE! - in integration.datalayer.customer.CreateCustomerTest
+integration.datalayer.customer.CreateCustomerTest  Time elapsed: 0.001 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class integration.ContainerizedDbIntegrationTest
+

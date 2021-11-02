@@ -1,0 +1,5 @@
+integration/servicelayer/customer/SvcCreateCustomerTest.class
+integration/servicelayer/customer/SomeOtherIntegrationTest.class
+unit/servicelayer/customer/CreateCustomerTest.class
+integration/datalayer/customer/CreateCustomerTest.class
+integration/ContainerizedDbIntegrationTest.class

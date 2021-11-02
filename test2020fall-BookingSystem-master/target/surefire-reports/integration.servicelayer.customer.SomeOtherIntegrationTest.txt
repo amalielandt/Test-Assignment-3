@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: integration.servicelayer.customer.SomeOtherIntegrationTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.002 s <<< FAILURE! - in integration.servicelayer.customer.SomeOtherIntegrationTest
+integration.servicelayer.customer.SomeOtherIntegrationTest  Time elapsed: 0.002 s  <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class integration.ContainerizedDbIntegrationTest
+
