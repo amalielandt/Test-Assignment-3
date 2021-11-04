@@ -54,6 +54,7 @@ public class CreateEmployeeTest {
         //   'createCustomer' with an argument whose 'firstname' == firstName and
         //   whose 'lastname' == lastName
         verify(storageMock, times(1))
-                .createEmployee(eq(employee));
+                .createEmployee(argThat(x -> x.getFirstname().equals(firstName) &&
+                        x.getLastname().equals(lastName)));
     }
 }
